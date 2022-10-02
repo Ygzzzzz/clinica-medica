@@ -197,28 +197,40 @@ footer p {
         border-top: 2px solid rgba(0, 0, 0, 0.5);
     }
 
+    .linksTopo a {
+        font-size: 20px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
     .banner {
         background-position: center center;
         height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
-
     }
 
     .tituloPrincipal {
         position: absolute;
         top: 20%;
+        left: 1%;
         padding: 0px;
     }
 
     h1 {
         font-size: 35px;
+        text-align: center;
     }
 
     .sobreClinica p {
         margin-bottom: 20px;
+        text-align: center;
+        max-width: 350px;
     }
 
     .secaoSobre img {
