@@ -53,7 +53,7 @@ h2 {
 }
 
 .textoEspecialidade {
-    margin: 30px 0;
+    margin: 5px 0;
 }
 
 .horarios {
@@ -90,6 +90,12 @@ tbody tr:nth-child(odd) {
 }
 
 @media (max-width: 425px) {
+
+    .menuEspecialidades {
+        display: flex;
+        flex-direction: column;
+    }
+
     .menuEspecialidades nav {
         display: flex;
         flex-direction: row;
@@ -119,5 +125,10 @@ tbody tr:nth-child(odd) {
 
     .horarios img {
         display: none;
+    }
+
+    table {
+        width: 95vw;
+        height: auto;
     }
 }
