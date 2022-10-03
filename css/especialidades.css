@@ -105,6 +105,10 @@ tbody tr:nth-child(odd) {
         margin: 10px 0;
     }
 
+    .cardEspecialidades:last-child {
+        margin-bottom: 50px;
+    }
+
     h1 {
         text-align: center;
     }
