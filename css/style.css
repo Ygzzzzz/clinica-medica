@@ -180,7 +180,7 @@ footer p {
 
 /*Media Queries*/
 
-@media (max-width: 600px) {
+@media (max-width: 425px) {
 
     html, body {
         overflow-x: hidden;
